@@ -1,11 +1,9 @@
-// ===============================
-// LUMÉRA SALON - JAVASCRIPT
-// ===============================
+
+// LUMÉRA SALON - JAVASCRIPT// 
 
 
-// ===============================
-// MOBILE MENU
-// ===============================
+
+// MOBILE MEN// 
 
 const menuBtn = document.querySelector(".menu-btn");
 const navMenu = document.querySelector(".nav-menu");
@@ -36,11 +34,8 @@ navLinks.forEach(link => {
     });
 
 });
-
-
-// ===============================
 // HEADER SCROLL EFFECT
-// ===============================
+
 
 const header = document.querySelector(".header");
 
@@ -59,9 +54,8 @@ window.addEventListener("scroll", () => {
 });
 
 
-// ===============================
 // APPOINTMENT FORM
-// ===============================
+
 
 const bookingForm = document.querySelector(".booking-form");
 
@@ -165,9 +159,9 @@ bookingForm.addEventListener("submit", function(event) {
 });
 
 
-// ===============================
+
 // MESSAGE BOX
-// ===============================
+
 
 function showMessage(message) {
 
@@ -225,11 +219,8 @@ function showMessage(message) {
     }, 5000);
 
 }
-
-
-// ===============================
 // SERVICE CARD ANIMATION
-// ===============================
+
 
 const serviceCards =
     document.querySelectorAll(".service-card");
@@ -263,9 +254,9 @@ serviceCards.forEach(card => {
 });
 
 
-// ===============================
+
 // GALLERY HOVER EFFECT
-// ===============================
+
 
 const galleryItems =
     document.querySelectorAll(".gallery-item");
@@ -289,9 +280,8 @@ galleryItems.forEach(item => {
 });
 
 
-// ===============================
 // CURRENT YEAR
-// ===============================
+
 
 const yearElement =
     document.querySelector(".footer-bottom p");
@@ -306,10 +296,8 @@ if (yearElement) {
 
 }
 
-
-// ===============================
 // SET MINIMUM DATE
-// ===============================
+
 
 const datePicker =
     document.querySelector('input[type="date"]');
@@ -323,11 +311,8 @@ if (datePicker) {
     datePicker.setAttribute("min", today);
 
 }
-
-
-// ===============================
 // SCROLL REVEAL
-// ===============================
+
 
 const revealElements =
     document.querySelectorAll(
@@ -367,9 +352,9 @@ revealElements.forEach(element => {
 });
 
 
-// ===============================
+
 // ACTIVE NAVIGATION
-// ===============================
+
 
 const sections =
     document.querySelectorAll("section[id]");
